@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator-app-main</title>
+</head>
+<body class="body">
+    <div class="calculator">
+        <div class="head">
+            <h2>calc</h2>
+            <div class="right"><p class="nbrtheme"> 1 2 3</p>
+            <span>THEME</span>
+            <input class="them" id="theme1" type="radio" name="theme" checked>
+            <label for="theme1" class="theme-label"></label>
+            <input class="them" id="theme2" type="radio" name="theme">
+            <label for="theme2" class="theme-label"></label>
+            <input class="them" id="theme3" type="radio" name="theme"></div>
+            <label for="theme3" class="theme-label"></label>
+        </div>
+        <div class="input">
+            <input id="write" type="text" disabled>
+        </div>
+        <div class="btns">
+            <div class="first">
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button id="del">DEL</button>
+            </div>
+            <div class="second">
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">+</button>
+            </div>
+            <div class="third">
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">-</button>
+            </div>
+            <div class="forth">
+                <button class="number" id="point">.</button>
+                <button class="number">0</button>
+                <button class="operator">/</button>
+                <button class="operator">*</button>
+            </div>
+            <div class="last">
+                <button id="reset">RESET</button>
+                <button id="equal">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
